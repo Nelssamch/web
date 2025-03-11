@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #3498db;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x500/?education,school') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 40px 10%;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #219150;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    padding: 15px 10%;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #e67e22;
+    text-decoration: none;
+  }
